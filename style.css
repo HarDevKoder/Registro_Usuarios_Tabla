@@ -1,0 +1,82 @@
+@font-face {
+    font-family: miFuente;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+body{
+    background:azure;
+    font-family: miFuente;
+}
+
+.container{
+    max-width: 350px;
+    margin: 50px auto;
+}
+
+.formulario{
+    border: 1px solid gray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 40px;
+    background: hsl(222, 15%, 87%);
+    box-shadow: 0 0 3px rgba(0,0,0,.9);
+}
+
+.titulo{  
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 0px 2px 1px gray;
+    font-size: 25px;
+}
+
+.texto{
+    margin-bottom: 8px;
+    padding: 3px;
+    border-radius: 5px;
+    width:100%;
+    font-size: 20px;
+}
+
+.btnRegistrar{
+    width: 100%;
+    padding: 10px;
+    background: hsl(205, 100%, 17%);
+    font-weight: bold;
+    color: SeaShell;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.tabla{
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+}
+
+.tituloTabla{
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 0px 2px 1px gray;
+    font-size: 25px;
+}
+
+table th{
+    background: black;
+    color: silver;
+    font-size: 20px;
+}
+
+table td{
+    padding-top: 3.px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+}
+
+table td:first-child{
+    text-align: left;
+    padding-left: 10px;
+}
